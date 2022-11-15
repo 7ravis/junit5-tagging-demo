@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.fail;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
-class Junit5TaggingDemoApplicationTests {
+class TstEnvTests {
 	
 	@Test
 	@Tag("tst")
@@ -18,13 +18,7 @@ class Junit5TaggingDemoApplicationTests {
 	@Tag("tst")
 	@Tag("wip")
 	void testTstEnvWip() {
-		fail("Not yet implemented");
-	}
-	
-	@Test
-	@Tag("stg")
-	public void testStgEnv() {
-		assertThat("hello world").isNotNull();
+		fail("work in progress");
 	}
 	
 }
